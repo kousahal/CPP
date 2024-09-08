@@ -31,7 +31,7 @@ int main(){
         case 'u':
                 cout << "It is a Vowel" << endl;
                 break;
-    default:                                             // If not a Vowel
+    default:                                             // If not a Vowels
        cout <<"It is a Consonent"<< endl;
     }
 }
