@@ -77,3 +77,4 @@ int n = 3;
  return 0;
 
 }
+// Leaving Patterns now it is bit confusing
