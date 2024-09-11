@@ -16,10 +16,25 @@ cout << "Length of Array = " << Length << endl;
 // Traversing Through the Array
 
 // FOR LOOP
+cout<<"FOR LOOP"<<endl;
 for(int i=0; i<Length; i++){ // Loop body where you can perform operations on each element if needed.
     cout<<array[i]<<endl;                
 }
-                               
 
+// FOR EACH LOOP
+cout<<"FOR EACH LOOP"<<endl;
+for (int ele : array) {
+    // Loop body where you can perform operations on each element if needed.
+    // For now, we're just printing the value of 'ele'.
+    cout << ele << endl;
+}
 
+// WHILE LOOP
+cout<<"WHILE LOOP"<<endl;
+int index = 0;
+while (index < Length) {
+    // Loop body where you can perform operations on each element if needed.
+    // Here, we're printing the value of 'array[index]'.
+    cout << array[index] << endl;
+    index++; // Increment the index for the next iteration
 } 
