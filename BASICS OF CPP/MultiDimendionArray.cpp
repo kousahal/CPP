@@ -2,30 +2,50 @@
 using namespace std;
 
 int main() {
-    int n, m; // Define array dimensions
-    cout << "Enter the number of rows: ";
-    cin >> n;
-    cout << "Enter the number of columns: ";
-    cin >> m;
+ int n ; // Set the number of rows
+ int m ; // Set the number of columns
+ cout<<"ROWS = ";
+ cin>>n;
+ cout<<"COLUMNS = ";
+ cin>>m;
+    // Declare two 2D arrays
+    int array1[n][m];
+    int array2[n][m];
 
-    int arr[n][m]; // Declare a 2D array
-
-    // Input values for the array
+    // Take input for Array 1
+    cout << "Enter values for Array 1:\n";
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
-            cout << "Enter value for arr[" << i << "][" << j << "]: ";
-            cin >> arr[i][j];
+            cout << "Enter value for Array 1[" << i << "][" << j << "]: ";
+            cin >> array1[i][j];
         }
     }
 
-    for(int i = 0; i<n; i++){
-        for(int j=0; j<m ; j++){
-            cout <<arr[i][j]<<" ";
+    // Take input for Array 2
+    cout << "Enter values for Array 2:\n";
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            cout << "Enter value for Array 2[" << i << "][" << j << "]: ";
+            cin >> array2[i][j];
         }
-        cout<<endl;
     }
 
-    // Rest of your code (processing or output) goes here
+    // Add corresponding elements and store in a result array
+    int Sum[n][m];
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            Sum[i][j] = array1[i][j] + array2[i][j];
+        }
+    }
+
+    // Display the resulting array
+    cout << "\nResulting array (sum of elements):\n";
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            cout << Sum[i][j] << " ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }
