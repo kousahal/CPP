@@ -37,5 +37,15 @@ while (index < Length) {
     // Here, we're printing the value of 'array[index]'.
     cout << array[index] << endl;
     index++; // Increment the index for the next iteration
-} 
+}
+// SUM OF ARRAY
+// SUM OF ARRAY
+int sum = 0; // Initialize an integer variable 'sum' to 0 which will hold the total sum of array elements.
+
+for(int i = 0; i < Length; i++){ // Start a for loop with 'i' initialized to 0, continue until 'i' is less than 'length', increment 'i' by 1 after each iteration.
+    sum += array[i]; // Add the value of the current element in the array (at index 'i') to the variable 'sum'.
+}
+
+cout << sum << endl; // Output the final value of 'sum' to the console followed by a new line.
+
 }
