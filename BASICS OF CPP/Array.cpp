@@ -38,3 +38,4 @@ while (index < Length) {
     cout << array[index] << endl;
     index++; // Increment the index for the next iteration
 } 
+}
