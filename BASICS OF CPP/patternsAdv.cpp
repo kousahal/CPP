@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  int size = 5;
+  int size = 10;
   int alpha = 65;
   int num = 0;
   // upside pyramid
