@@ -1,10 +1,12 @@
- // int n;
-        // cin>>n;
-         
-        // int array[n];
-        // for(int i=0;i <n;i++){
-        //         cin>>array[n];
-        //         cout<<array[i];
-        //     }
-        //     return 0;
-            
+ cout<<prime(a)<<endl;
+    //    if (prime(a)==0){
+    //     cout<<"NO,it is not a prime number"<<endl;
+    //   }else{
+    //     cout<<"YES,it is a prime number "<<endl;
+    //   }
+    //   cout<<prime(b)<<endl;
+    //    if (prime(b)==0){
+    //     cout<<"NO,it is not a prime number"<<endl;
+    //   }else{
+    //     cout<<"YES,it is a prime number "<<endl;
+    //   }
