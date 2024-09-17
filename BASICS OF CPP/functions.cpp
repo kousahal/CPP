@@ -60,4 +60,5 @@ bool prime(int n){
       cout<<"The factorial fo the B is = ";
       cout<<fact(b)<<endl;
     
+    
     }
