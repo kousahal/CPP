@@ -42,13 +42,14 @@ bool prime(int n){
         cin>>b;
 
        cout<<prime(a)<<endl;
+       int ayya
        if (prime(a)==0){
         cout<<"NO,A is not a prime number"<<endl;
       }else{
         cout<<"YES,A is a prime number "<<endl;
       }
       cout<<prime(b)<<endl;
-       if (prime(b)==0){
+       if (prime()==0){
         cout<<"NO,B is not a prime number"<<endl;
       }else{
         cout<<"YES,B is a prime number "<<endl;
