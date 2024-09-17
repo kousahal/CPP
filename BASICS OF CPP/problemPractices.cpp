@@ -37,50 +37,71 @@
 //    cout << a;1
     // int i;
     // while(i!=0){
-        
-    // }
-
-
-
-
-
-
-
-
-
-
+    
 
 
 
 
    
-#include <bits/stdc++.h>
-using namespace std;
+// #include <bits/stdc++.h>
+// using namespace std;
 
 
-int countSquares(int row, int column)
-{
+// int countSquares(int row, int column)
+// {
 
 	
-	int c1 = min(row, column)-1;
+// 	int c1 = min(row, column)-1;
 
-	int c2 =8- max(row,column);
+// 	int c2 =8- max(row,column);
 
-	int c3 = min(row,9 -column)-1;
+// 	int c3 = min(row,9 -column)-1;
 
-	int c4 = 8-max(row,9-column);
+// 	int c4 = 8-max(row,9-column);
 
-	return (c1 + c2 + c3 + c4);
-}
+// 	return (c1 + c2 + c3 + c4);
+// }
 
-// Driver code
-int main()
-{
+// // Driver code
+// int main()
+// {
 
-	// Bishop's Position
-	int row = 4, column = 4;
+// 	// Bishop's Position
+// 	int row = 4, column = 4;
 
-	cout << countSquares(row, column);
+// 	cout << countSquares(row, column);
 
-	return 0;
-}
+// 	return 0;
+
+// 	   #include<iostream>
+//     #include<climits>
+//     using namespace std;
+//     int main(){
+
+
+    //  int arr[5] = {5,6,2,5,56};
+     // here the size of arr will give the total size of the array and here it is giving 20 because 20 = 4 byte * 5 elements;
+    //  cout<<sizeof(arr)/sizeof(arr[0])<<" "<<endl;
+
+// FOR FINDING THE MAXIMUM VALUE IN THE ARRAY ::::: 
+    //  int ans = INT_MIN; //for finding minimum value we take ans value maximum;and for finding maximum viceoversa
+
+    //  for(int i =0; i<5;i++){
+    //   if(arr[i]>ans)
+    //   ans = arr[i];
+    //  }
+
+//  FOR FINDING THE MINIMUM VALUE IN THE ARRAY :::::
+    //  int ans = INT_MAX; //for finding minimum value we take ans value maximum;and for finding maximum viceoversa
+
+    //  for(int i =0; i<5;i++){
+    //   if(arr[i]<ans)
+    //   ans = arr[i];
+    //  }
+
+    //  
+    
+
+
+
+	#include
