@@ -108,17 +108,26 @@
 using namespace std;
 int main(){
 int arr[5]={1,6,7,9,2};
-int input_of_user;
-cout<<"write the number you want to find in the array = ";
-cin>>input_of_user;
-int index = -1;
-for(int i=0; i<5; i++)
-if(arr[i]==input_of_user){
-	index=i;
-}
-cout<<"The input number is present on the index = "<<index;
 
+int sum = 0,mul=1;
+for (int i =0;i<5;i++){
+sum += arr[i];
+mul *=arr[i];
+}
+cout<<sum<<endl;
+cout<<mul;
 return 0;
+// int input_of_user;
+// cout<<"write the number you want to find in the array = ";
+// cin>>input_of_user;
+// int index = -1;
+// for(int i=0; i<5; i++)
+// if(arr[i]==input_of_user){
+// 	index=i;
+// }
+// cout<<"The input number is present on the index = "<<index;
+
+// return 0;
 }
 
 
