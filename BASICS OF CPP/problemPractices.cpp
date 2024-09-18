@@ -108,14 +108,14 @@
 using namespace std;
 int main(){
 int arr[5]={1,6,7,9,2};
-
-int sum = 0,mul=1;
-for (int i =0;i<5;i++){
-sum += arr[i];
-mul *=arr[i];
-}
-cout<<sum<<endl;
-cout<<mul;
+cout<<sizeof(arr)/sizeof(arr[0]);
+// int sum = 0,mul=1;
+// for (int i =0;i<5;i++){
+// sum += arr[i];
+// mul *=arr[i];
+// }
+// cout<<sum<<endl;
+// cout<<mul;
 return 0;
 // int input_of_user;
 // cout<<"write the number you want to find in the array = ";
