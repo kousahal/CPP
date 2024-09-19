@@ -24,7 +24,7 @@ for(int i=0; i<Length; i++){ // Loop body where you can perform operations on ea
 // FOR EACH LOOP
 cout<<"FOR EACH LOOP"<<endl;
 for (int ele : array) {
-    // Loop body where you can perform operations on each element if needed.
+    // Loop body where you can perform operations on each elem ent if needed.
     // For now, we're just printing the value of 'ele'.
     cout << ele << endl;
 }
