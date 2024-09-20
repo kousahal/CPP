@@ -31,10 +31,16 @@ void insertatbegin(int data){
    // point it to old first node
    lk->next = head;
    
+   
    //point first to new first node
    head = lk;
 }
 int main(){
+   insertatbegin(11);
+   insertatbegin(10);
+   insertatbegin(12);
+   insertatbegin(56);
+   insertatbegin(11);
    insertatbegin(12);
    insertatbegin(22);
    insertatbegin(30);

@@ -131,6 +131,20 @@ return 0;
 }
 
 
+#include <iostream>
+using namespace std;
+
+class addition{
+    private:
+    int num1,num2,sum;
+public:
+int else{
+cout<<"enter the number num1 and num2= ";
+}
+
+
+}
+
 
 
 
