@@ -76,9 +76,6 @@ int main(){
     d.givename();
     d.givesalary();
 
-
-
-
 }
 
 
