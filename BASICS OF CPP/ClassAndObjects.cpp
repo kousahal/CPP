@@ -40,45 +40,57 @@
 // }
 
 
-class Dev{
-    private:
-    string name;
-    int salary;
+// class Dev{
+//     private:
+//     string name;
+//     int salary;
+//     public:
+
+//     void takename(string s){
+//         name =s;
+//     }
+
+//     void takesalary(int a){
+//         salary=a;
+//     }
+//     void givename(){
+//         cout << name<<endl;
+//     }
+
+//     void givesalary(){
+//         cout<<"give the pin= ";
+//         int pin;
+//         cin>>pin;
+//         if(pin==000){
+//             cout<< salary;
+//         }
+//     }
+
+// };
+
+// int main(){
+
+//     Dev d;
+//     d.takename("koushal");
+//     d.takesalary(1200000);
+
+//     d.givename();
+//     d.givesalary();
+
+// }
+
+class Rectangle{
     public:
-
-    void takename(string s){
-        name =s;
+    int length;
+    int breadth;
+    void area(){
+        cout << length*breadth;
     }
+    
 
-    void takesalary(int a){
-        salary=a;
-    }
-    void givename(){
-        cout << name<<endl;
-    }
-    void givesalary(){
-        cout<<"give the pin= ";
-        int pin;
-        cin>>pin;
-        if(pin==000){
-            cout<< salary;
-        }
-    }
 
-};
-
-int main(){
-
-    Dev d;
-    d.takename("koushal");
-    d.takesalary(1200000);
-
-    d.givename();
-    d.givesalary();
 
 }
-
-
 
 
 
