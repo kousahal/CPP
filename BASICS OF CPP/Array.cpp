@@ -33,6 +33,7 @@ for (int ele : array) {
 cout<<"WHILE LOOP"<<endl;
 int index = 0;
 while (index < Length) {
+    
     // Loop body where you can perform operations on each element if needed.
     // Here, we're printing the value of 'array[index]'.
     cout << array[index] << endl;

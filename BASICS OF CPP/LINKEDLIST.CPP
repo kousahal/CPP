@@ -21,15 +21,15 @@ void printList(){
    cout << "]";
 }
 
-//insertion at the beginning
+//Insertion at the beggining 
 void insertatbegin(int data){
    
-   //create a link
+   //create a link 
    struct node *lk = (struct node*) malloc(sizeof(struct node));
    lk->data = data;
    
     
-   // point it to old first node
+   //point it to old first node
    lk->next = head;
    
    
