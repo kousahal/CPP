@@ -3,7 +3,6 @@ using namespace std;
 
 class Rectangle
 {
-    // Data members
 private:
     double length;
     double breadth;
@@ -19,15 +18,15 @@ public:
     // Constructor 2: Two parameters, set length and breadth to provided values
     Rectangle(double l, double b)
     {
-        length = l;
-        breadth = b;
+        length = l;  // 'l' is assigned to 'length'
+        breadth = b; // 'b' is assigned to 'breadth'
     }
 
-    // Constructor 3: One parameter, set both length and breadth to the same value
+    // Constructor 3: One parameter, set both length and breadth to the same value (square)
     Rectangle(double side)
     {
-        length = side;
-        breadth = side;
+        length = side;  // 'side' is assigned to both 'length'...
+        breadth = side; // ...and 'breadth', making it a square
     }
 
     // Function to calculate the area of the rectangle
@@ -42,12 +41,12 @@ int main()
     // Creating objects using different constructors
     Rectangle rect1;         // No parameters
     Rectangle rect2(10, 20); // Two parameters
-    Rectangle rect3(15);     // One parameter
+    Rectangle rect3(15);     // One parameter (this will create a square with side 15)
 
     // Printing the areas of the rectangles
     cout << "Area of Rectangle 1: " << rect1.calculateArea() << endl;
     cout << "Area of Rectangle 2: " << rect2.calculateArea() << endl;
-    cout << "Area of Rectangle 3: " << rect3.calculateArea() << endl;
+    cout << "Area of Rectangle 3 (Square): " << rect3.calculateArea() << endl;
 
     return 0;
 }
