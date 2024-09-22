@@ -28,7 +28,7 @@ void insertatbegin(int data){
    struct node *lk = (struct node*) malloc(sizeof(struct node));
    lk->data = data;
    
-   
+    
    // point it to old first node
    lk->next = head;
    
