@@ -32,7 +32,7 @@ public:
     // Function to calculate the area of the rectangle
     double calculateArea()
     {
-        return length * breadth;
+        return length * breadth;  
     }
 };
 
