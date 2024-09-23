@@ -91,7 +91,7 @@ void displayList(Node* head) {
         cout << temp->data << " -> "; // Print the data of the current node
         temp = temp->next; // Move to the next node
     }
-    cout << "NULL" << endl; // Indicate the end of the list
+    cout << "NULL" << endl; // Indicate the end of the listxxx
 }
 
 int main() {
