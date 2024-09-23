@@ -8,24 +8,34 @@ class Report_Card
     int Total_Marks;
 
 public:
-    Report_Card(string s, int m1, int m2)
+    void input()
     {
-        Name = s;
-        Math_Marks = m1;
-        Science_Marks = m2;
-        cin >> m1 >> m2;
-        if (Total_Marks > 80)
-        {
-            cout << "A Grade";
-        }
-        else if (Total_Marks > 40 && Total_Marks < 79)
-        {
-            cout << "B grade";
-        }
+        cout << "Name: ";
+        cin >> Name;
+        cout << "Math: ";
+        cin >> Math_Marks;
+        cout << "Science: ";
+        cin >> Science_Marks;
+         cout << "Your name = " << Name << endl;
+        cout << "Marks in Math = " << Math_Marks << endl;
+        cout << "Marks in Math = " << Science_Marks << endl;
+    };
+    void output()
+    {
+       
+        Total_Marks = Math_Marks + Science_Marks;
+        cout << "Your Total Marks are = ";
+        cout << Total_Marks;
+    };
+    void percentage{
+        
     }
+    
 };
 
 int main()
 {
-    Report_Card student1;
+    Report_Card S1;
+    S1.input();
+    S1.output();
 }
