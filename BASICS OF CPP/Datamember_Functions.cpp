@@ -43,7 +43,7 @@ public:
         }
         else
         {
-            cout << "Insufficient balance or invalid amount!" << endl;
+            cout         << "Insufficient balance or invalid amount!" << endl;
         }
     }
 
