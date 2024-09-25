@@ -35,7 +35,7 @@ public:
 
     // Member function to withdraw money
     void withdraw(double amount)
-    { 
+    {
         if (amount > 0 && amount <= balance)
         {
             balance -= amount;
@@ -43,7 +43,7 @@ public:
         }
         else
         {
-            cout         << "Insufficient balance or invalid amount!" << endl;
+            cout << "Insufficient balance or invalid amount!" << endl;
         }
     }
 
