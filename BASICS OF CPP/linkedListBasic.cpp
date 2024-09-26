@@ -41,11 +41,12 @@ public:
 };
 
 int main()
-{
+{ 
 
     node *Head;
-
-    Head = new node(45);
-    cout << Head->data;
+    Head = new node (12);
+    cout << Head->data <<endl;
     cout << Head->next;
 }
+
+   
