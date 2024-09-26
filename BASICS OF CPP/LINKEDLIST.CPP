@@ -93,8 +93,10 @@ void displayList(Node *head)
    Node *temp = head; // Temporary pointer to traverse the list
    while (temp != NULL)
    {                                // Loop until we reach the end of the list
-      cout << temp->data << " -> "; // Print the data of the current node
-      temp = temp->next;            // Move to the next node
+      // cout << temp->data << " -> "; // Print the data of the current node
+      // temp = temp->next;     
+      cout<< temp-> data <<"->";
+      temp = temp->next;       // Move to the next node
    }
    cout << "NULL" << endl;  // Indicate the end of the listxxx
 }

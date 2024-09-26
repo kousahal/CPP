@@ -1,28 +1,51 @@
+// #include <iostream>
+// using namespace std;
+// class Node
+// {
+// public:
+//     int data;
+//     Node *next;
+
+//     Node (int value){
+//         data = value;
+//         next = NULL;
+
+//     }
+// };
+
+// int main(){
+
+// Node A1(4);  //Statically
+
+// // For Dynamically
+
+// Node *Head;
+// Head = new Node(4);
+
+// }
 #include <iostream>
 using namespace std;
-class Node
+
+class node
 {
+
 public:
     int data;
-    Node *next;
+    node *next;
 
-    Node (int value){
-        data = value;
+    node(int data)
+    {
+        this->data = data;
         next = NULL;
-    
     }
 };
 
-int main(){
+int main()
+{
 
-Node A1(4);  //Statically
+    node *Head;
 
-// For Dynamically 
-
-Node *Head;
-Head = new Node(4);
-
-
-
-
+    Head = new node(45);
+    cout << Head->data;
+    cout << Head->next;
 }
