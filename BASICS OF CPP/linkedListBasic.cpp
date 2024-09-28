@@ -23,30 +23,4 @@
 // Head = new Node(4);
 
 // }
-#include <iostream>
-using namespace std;
 
-class node
-{
-
-public:
-    int data;
-    node *next;
-
-    node(int data)
-    {
-        this->data = data;
-        next = NULL;
-    }
-};
-
-int main()
-{ 
-
-    node *Head;
-    Head = new node (12);
-    cout << Head->data <<endl;
-    cout << Head->next;
-}
-
-   
