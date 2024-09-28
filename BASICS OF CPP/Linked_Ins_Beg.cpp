@@ -37,7 +37,7 @@ int main()
             node *temp;              // Create a temporary pointer 'temp' to hold the new node
             temp = new node(arr[i]); // Create a new node and store arr[i] in its data field
             temp->next = head;       // Set the new node's next pointer to point to the current head
-            head = temp;             // Update the head to point to the new node (the new head)
+            head = temp;             // Update the head to point to the new node (the new headb)
         }
     }
 
