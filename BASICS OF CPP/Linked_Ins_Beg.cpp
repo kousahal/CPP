@@ -12,15 +12,32 @@ public:
         this->data = data;
         this->next = NULL;
     }
-    void insert_At_head(node* &head, int val){
-        node * new_node= new node (val);
-        new_node->next = head;
-        head = new_node;
-    }
 };
 int main()
 {
-    node * n;
-    n = new node(1);
-    cout<<n->data<<" "<<n->next<<endl;   
+    node *head;
+    head = NULL;
+    int arr[] = {1,2, 3, 4, 5};
+    for (int i = 0; i < 5; i++)
+    {
+        if (head == NULL)
+        {
+            head = new node(arr[i]);
+        }
+        else
+
+        {
+            node *temp;
+            temp = new node(arr[i]);
+            temp->next = head;
+            head = temp;
+        }
+    }
+
+    node *temp = head;
+    while (temp != NULL)
+    {
+        cout << temp->data<<" ";
+        temp = temp->next;
+    }
 }
