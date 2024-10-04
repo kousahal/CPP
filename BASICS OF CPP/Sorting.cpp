@@ -6,14 +6,14 @@ int array[5] = {7, 6, 5, 4, 8};
 
 int main() {
     // Outer loop: iterate through the first 4 elements of the array
-    for (int i = 0; i < 4; i++) {
+    for (int i = 4; i >= 0; i--) {
         // Set 'index' to the current position 'i'
         int index = i;
 
         // Inner loop: compare the current element with the remaining elements
-        for (int j = i + 1; j < 5; j++) {
+        for (int j = i - 1; j >= 0; j--) {
             // If the current element (array[j]) is smaller than array[i], update 'index' to 'j'
-            if (array[j] < array[i])
+            if (array[j] > array[i])
                 index = j;
         }
 
