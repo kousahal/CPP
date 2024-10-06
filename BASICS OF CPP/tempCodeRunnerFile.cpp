@@ -1,1 +1,2 @@
-out<<"The input number is present on the index = "<<return;
+
+using namespace std;
