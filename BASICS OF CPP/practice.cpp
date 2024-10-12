@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
 // class vehicle{
 //     public:
@@ -23,11 +23,11 @@ using namespace std;
 //     // car(4);
 // }
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
 #include <iostream>
 using namespace std;
