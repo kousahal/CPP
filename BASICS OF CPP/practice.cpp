@@ -43,7 +43,6 @@ int main() {
                 break; // If a divisor is found, exit the loop
             }
         }
-
         // If the loop completes without breaking, j will be equal to i
         if (j == i) {
             cout << i << endl;
