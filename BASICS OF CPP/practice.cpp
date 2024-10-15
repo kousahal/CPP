@@ -1,54 +1,35 @@
-// #include <iostream>
-// using namespace std;
-
-// class vehicle{
-//     public:
-//     int n;
-
-//     void car(){
-//         cout<<"Enter the number : ";
-//         cin>>n;
-//         cout<<n;
-//     }
-
-//         void displaycar( ){
-//         cout<<"this is the second copy: ";
-//     };
-//     };
-
-// int main(){
-//     vehicle obj;
-//     obj.car();
-//     obj.displaycar();
-//     // car(4);
-// }
-
-// #include <iostream>
-// using namespace std;
-
-// #include <iostream>
-// using namespace std;
-
 #include <iostream>
+#include <string>
+#include "qrcodegen.hpp"  // Ensure you have this library
+
 using namespace std;
+using namespace qrcodegen;
+
+// Function to display QR Code
+void displayQRCode(const string& data) {
+    const QrCode qr = QrCode::encodeText(data.c_str(), QrCode::Ecc::LOW);
+    cout << qr.toString() << endl; // Display the QR code in the console
+}
+
+// Function to simulate accessing user contact information
+void accessContactInfo() {
+    string name = "John Doe";
+    string contact = "+1234567890";
+
+    cout << "\n--- Accessing Contact Information ---" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Contact: " << contact << endl;
+}
 
 int main() {
-    int p;
-    cin >> p;
+    string qrData = "Name: John Doe\nContact: +1234567890"; // QR code data
 
-    for (int i = 2; i <= p; i++) {
-        int j;
-        for (j = 2; j < i; j++) {
-            if (i % j == 0) {
-                break; // If a divisor is found, exit the loop
-            }
-        }
-        // If the loop completes without breaking, j will be equal to i
-        if (j == i) {
-            cout << i << endl;
-        }
-    }
+    cout << "Generating QR Code...\n";
+    displayQRCode(qrData);
+
+    // Simulate access to contact information
+    cout << "\nAccessing contact information based on QR code scan...\n";
+    accessContactInfo();
 
     return 0;
 }
-
